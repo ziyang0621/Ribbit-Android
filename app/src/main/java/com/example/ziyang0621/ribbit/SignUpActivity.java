@@ -1,5 +1,6 @@
 package com.example.ziyang0621.ribbit;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -26,6 +27,9 @@ public class SignUpActivity extends Activity {
         super.onCreate(savedInstanceState);
         setProgressBarIndeterminateVisibility(true);
         setContentView(R.layout.activity_sign_up);
+
+        ActionBar actionBar = getActionBar();
+        actionBar.hide();
 
         mUsername = (EditText) findViewById(R.id.usernameField);
         mPassword = (EditText) findViewById(R.id.passwordField);
