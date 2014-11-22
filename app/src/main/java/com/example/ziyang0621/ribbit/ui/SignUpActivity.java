@@ -1,4 +1,4 @@
-package com.example.ziyang0621.ribbit;
+package com.example.ziyang0621.ribbit.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.ziyang0621.ribbit.R;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;

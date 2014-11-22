@@ -1,4 +1,4 @@
-package com.example.ziyang0621.ribbit;
+package com.example.ziyang0621.ribbit.ui;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
@@ -13,6 +13,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.ziyang0621.ribbit.FileHelper;
+import com.example.ziyang0621.ribbit.ParseConstants;
+import com.example.ziyang0621.ribbit.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseFile;

@@ -1,4 +1,4 @@
-package com.example.ziyang0621.ribbit;
+package com.example.ziyang0621.ribbit.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.ziyang0621.ribbit.R;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;

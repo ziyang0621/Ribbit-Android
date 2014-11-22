@@ -1,9 +1,14 @@
-package com.example.ziyang0621.ribbit;
+package com.example.ziyang0621.ribbit.adapters;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.ziyang0621.ribbit.R;
+import com.example.ziyang0621.ribbit.ui.FriendsFragment;
+import com.example.ziyang0621.ribbit.ui.InboxFragment;
+
 import java.util.Locale;
 
 /**
