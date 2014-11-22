@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.ziyang0621.ribbit.ParseConstants;
+import com.example.ziyang0621.ribbit.utils.ParseConstants;
 import com.example.ziyang0621.ribbit.R;
 import com.parse.ParseObject;
 
@@ -22,14 +22,14 @@ import java.util.List;
 public class MessageAdapter extends ArrayAdapter<ParseObject>{
 
     protected Context mContext;
-    protected List<ParseObject> mMessage;
+    protected List<ParseObject> mMessages;
 
 
     public MessageAdapter(Context context, List<ParseObject> messages) {
         super(context, R.layout.message_item, messages);
 
         mContext = context;
-        mMessage = messages;
+        mMessages = messages;
     }
 
     @Override
@@ -48,7 +48,7 @@ public class MessageAdapter extends ArrayAdapter<ParseObject>{
             holder = (ViewHolder)convertView.getTag();
         }
 
-        ParseObject message = mMessage.get(position);
+        ParseObject message = mMessages.get(position);
 
         Date createdAt = message.getCreatedAt();
         long now = new Date().getTime();
@@ -74,8 +74,8 @@ public class MessageAdapter extends ArrayAdapter<ParseObject>{
     }
 
     public void refill(List<ParseObject> messages) {
-        mMessage.clear();
-        mMessage.addAll(messages);
+        mMessages.clear();
+        mMessages.addAll(messages);
         notifyDataSetChanged();
     }
 }

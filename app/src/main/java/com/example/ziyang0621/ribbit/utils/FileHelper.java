@@ -1,4 +1,4 @@
-package com.example.ziyang0621.ribbit;
+package com.example.ziyang0621.ribbit.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;

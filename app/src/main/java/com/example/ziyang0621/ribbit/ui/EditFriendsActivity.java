@@ -10,7 +10,7 @@ import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.example.ziyang0621.ribbit.ParseConstants;
+import com.example.ziyang0621.ribbit.utils.ParseConstants;
 import com.example.ziyang0621.ribbit.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;

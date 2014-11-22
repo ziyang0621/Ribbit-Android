@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.ziyang0621.ribbit.ParseConstants;
+import com.example.ziyang0621.ribbit.utils.ParseConstants;
 import com.example.ziyang0621.ribbit.R;
 import com.example.ziyang0621.ribbit.adapters.MessageAdapter;
 import com.parse.FindCallback;

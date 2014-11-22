@@ -13,8 +13,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.ziyang0621.ribbit.FileHelper;
-import com.example.ziyang0621.ribbit.ParseConstants;
+import com.example.ziyang0621.ribbit.utils.FileHelper;
+import com.example.ziyang0621.ribbit.utils.ParseConstants;
 import com.example.ziyang0621.ribbit.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;

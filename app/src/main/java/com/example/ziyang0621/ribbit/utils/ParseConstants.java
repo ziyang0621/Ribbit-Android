@@ -1,4 +1,4 @@
-package com.example.ziyang0621.ribbit;
+package com.example.ziyang0621.ribbit.utils;
 
 /**
  * Created by ziyang0621 on 11/15/14.
